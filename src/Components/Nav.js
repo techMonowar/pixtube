@@ -1,14 +1,13 @@
 import '../Styles/App.css';
 import '../Styles/Nav.css';
-import Sidebar from './Sidebar'
 import logo from '../img/PixTube.png';
+import { Link } from 'react-router-dom';
 export default function Nav (){
     return(
         <>
         <header className='header'>
             <div className='logo left'>
-                <i id='menu' className='material-icons'>menu</i>
-                <a href='/'><img src={logo} alt='PixTube Logo' /></a>
+                <Link to={'/'}><img src={logo} alt='PixTube Logo' /></Link>
             </div>
 
             <div className='search center'>
@@ -23,7 +22,6 @@ export default function Nav (){
             </div>
         </header>
        
-        <Sidebar/>
         </>
     );
 }

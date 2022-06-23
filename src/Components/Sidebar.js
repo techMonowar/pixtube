@@ -1,42 +1,42 @@
 import '../Styles/Sidebar.css';
-import Content from './Content'
 import Footer from './footer'
+import { Link } from 'react-router-dom';
 
 export default function Nav (){
     return(
         <>
-        <main>
+        
         <div className='sidebar'>
         <div className='nav'>
-            <a href='/' className='nav-link active'>
+            <Link to={'/'} className='nav-link active'>
             <i className='material-icons'>home</i>
             <span>Home</span>
-            </a>
+            </Link>
 
-            <a href='/trending' className='nav-link'>
+            <Link to={'/trending'} className='nav-link'>
             <i className='material-icons'>local_fire_department</i>
             <span>Trending</span>
-            </a>
+            </Link>
 
-            <a href='/history' className='nav-link'>
+            <Link to={'/history'} className='nav-link'>
             <i className='material-icons'>history</i>
             <span>History</span>
-            </a>
+            </Link>
 
-            <a href='/history' className='nav-link'>
+            <Link to={'/liked-videos'} className='nav-link'>
             <i className='material-icons'>favorite</i>
             <span>Liked Videos</span>
-            </a>
+            </Link>
 
-            <a href='/history' className='nav-link'>
+            <Link to={'/watch-later'} className='nav-link'>
             <i className='material-icons'>watch_later</i>
             <span>Watch Later</span>
-            </a>
+            </Link>
 
-            <a href='/history' className='nav-link'>
+            <Link to={'/watch'} className='nav-link'>
             <i className='material-icons'>playlist_play</i>
-            <span>Play List</span>
-            </a>
+            <span>Watch</span>
+            </Link>
 
             <a href='https://linkedin.com/in/techmonowar' target="_blank" rel='noreferrer' className='copyright'>
             {/* <i className='material-icons'>copyright</i> */}
@@ -49,10 +49,10 @@ export default function Nav (){
      
         </div>
 
-        <Content/>
-        </main>
+        
         <Footer/>
 
-        </>
+</>
+
     );
 }
