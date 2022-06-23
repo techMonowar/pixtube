@@ -1,6 +1,6 @@
 import Thumbnail from '../img/Thumbnail.jpg';
 import Author from '../img/Author.png';
-import '../Styles.css/Video.css';
+import '../Styles/Video.css';
 export default function Video (){
     return (
     <div class="video">

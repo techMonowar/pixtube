@@ -1,9 +1,10 @@
-import '../Styles.css/Sidebar.css';
+import '../Styles/Sidebar.css';
 import Content from './Content'
+import Footer from './footer'
 
 export default function Nav (){
     return(
-        <>
+        <div className='mobile-container'>
         <main>
         <div className='sidebar'>
         <div className='nav'>
@@ -50,7 +51,8 @@ export default function Nav (){
 
         <Content/>
         </main>
+        <Footer/>
 
-        </>
+        </div>
     );
 }

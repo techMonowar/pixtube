@@ -1,5 +1,5 @@
-import '../Styles.css/App.css';
-import '../Styles.css/Nav.css';
+import '../Styles/App.css';
+import '../Styles/Nav.css';
 import Sidebar from './Sidebar'
 import logo from '../img/PixTube.png';
 export default function Nav (){

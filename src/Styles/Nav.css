@@ -25,10 +25,12 @@ img{
  
 .search{
     display: flex;
+    margin-left: 5px;
 }
 
 .search form {
     display: flex;
+    flex-direction: row;
     border: 1px solid #ddd;
     height: 40px;
    }
@@ -56,4 +58,20 @@ img{
     color: rgb(100, 100, 100);
     padding: 0 7px;
     cursor: pointer;
+  }
+
+  @media (max-width:900px) {
+    input{
+      width: 400px;
+    }
+   
+    
+  }
+
+  @media (max-width:768px) {
+    input{
+      width: 100%;
+    }
+   
+    
   }

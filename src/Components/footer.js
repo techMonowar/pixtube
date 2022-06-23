@@ -1,44 +1,36 @@
+import '../Styles/Footer.css';
+export default function Footer (){
+    return (
 <footer>
-<div className='sidebar'>
-        <div className='nav'>
-            <a href='/' className='nav-link active'>
+<div className='bottom-bar'>
+        <div className='bottom-nav'>
+            <a href='/' className='bottom-nav-link bottom-active'>
             <i className='material-icons'>home</i>
-            <span>Home</span>
             </a>
 
-            <a href='/trending' className='nav-link'>
+            <a href='/trending' className='bottom-nav-link'>
             <i className='material-icons'>local_fire_department</i>
-            <span>Trending</span>
             </a>
 
-            <a href='/history' className='nav-link'>
+            <a href='/history' className='bottom-nav-link'>
             <i className='material-icons'>history</i>
-            <span>History</span>
             </a>
 
-            <a href='/history' className='nav-link'>
+            <a href='/history' className='bottom-nav-link'>
             <i className='material-icons'>favorite</i>
-            <span>Liked Videos</span>
             </a>
 
-            <a href='/history' className='nav-link'>
+            <a href='/history' className='bottom-nav-link'>
             <i className='material-icons'>watch_later</i>
-            <span>Watch Later</span>
             </a>
 
-            <a href='/history' className='nav-link'>
+            <a href='/history' className='bottom-nav-link'>
             <i className='material-icons'>playlist_play</i>
-            <span>Play List</span>
             </a>
-
-            <a href='https://linkedin.com/in/techmonowar' target="_blank" rel='noreferrer' className='copyright'>
-            {/* <i className='material-icons'>copyright</i> */}
-            <span>Design and Developed by - Monowar Hussain</span>
-            </a>
-
-            
             
         </div>
      
         </div>
         </footer>
+    );
+}

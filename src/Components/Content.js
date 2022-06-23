@@ -1,4 +1,4 @@
-import '../Styles.css/Content.css';
+import '../Styles/Content.css';
 import Video from './Video';
 
 export default function Content (){
