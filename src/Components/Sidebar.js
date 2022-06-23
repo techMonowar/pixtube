@@ -4,7 +4,7 @@ import Footer from './footer'
 
 export default function Nav (){
     return(
-        <div className='mobile-container'>
+       <>
         <main>
         <div className='sidebar'>
         <div className='nav'>
@@ -52,7 +52,6 @@ export default function Nav (){
         <Content/>
         </main>
         <Footer/>
-
-        </div>
+        </>
     );
 }
