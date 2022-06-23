@@ -1,4 +1,5 @@
 import Nav from '../Nav';
+import Footer from '../footer';
 import Sidebar from '../Sidebar';
 
 export default function Home (){
@@ -9,6 +10,7 @@ export default function Home (){
         <Sidebar/>
 <h1>LikedVideos</h1>
         </main>
+        <Footer/>
         </>
     );
 }

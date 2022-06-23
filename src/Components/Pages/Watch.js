@@ -1,4 +1,5 @@
 import Nav from '../Nav';
+import Footer from '../footer';
 import Sidebar from '../Sidebar';
 import Video from '../Video';
 
@@ -27,6 +28,7 @@ export default function Home (){
             
         </div>
         </main>
+        <Footer/>
         </>
     );
 }

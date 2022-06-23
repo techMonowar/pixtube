@@ -1,4 +1,5 @@
 import Nav from '../Nav';
+import Footer from '../footer';
 import Sidebar from '../Sidebar';
 
 export default function Home (){
@@ -7,7 +8,9 @@ export default function Home (){
         <Nav/>
         <main>
         <Sidebar/>
-<h1>WatchLater</h1>        </main>
+<h1>WatchLater</h1>        
+</main>
+        <Footer/>
         </>
     );
 }

@@ -1,5 +1,4 @@
 import '../Styles/Sidebar.css';
-import Footer from './footer'
 import { Link } from 'react-router-dom';
 
 export default function Nav (){
@@ -50,7 +49,6 @@ export default function Nav (){
         </div>
 
         
-        <Footer/>
 
 </>
 
