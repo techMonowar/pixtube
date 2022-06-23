@@ -27,7 +27,6 @@ export default function Content (){
            <Video/>
            <Video/>
            <Video/>
-           <Video/>
          </div>
 
         </div>
