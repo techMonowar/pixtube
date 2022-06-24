@@ -140,7 +140,7 @@ overflow: hidden;
   }
 
   .sidebar::-webkit-scrollbar{
-    width: 0.3rem;
+    width: 0.22rem;
 }
 .sidebar::-webkit-scrollbar-thumb {
     background: rgb(158, 203, 255);
