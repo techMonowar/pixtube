@@ -1,32 +1,33 @@
 import '../Styles/Footer.css';
+import {Link} from 'react-router-dom';
 export default function Footer (){
     return (
 <footer>
 <div className='bottom-bar'>
         <div className='bottom-nav'>
-            <a href='/' className='bottom-nav-link bottom-active'>
+            <Link to={'/'} className='bottom-nav-link bottom-active'>
             <i className='material-icons'>home</i>
-            </a>
+            </Link>
 
-            <a href='/trending' className='bottom-nav-link'>
+            <Link to={'/trending'} className='bottom-nav-link'>
             <i className='material-icons'>local_fire_department</i>
-            </a>
+            </Link>
 
-            <a href='/history' className='bottom-nav-link'>
+            <Link to={'/history'} className='bottom-nav-link'>
             <i className='material-icons'>history</i>
-            </a>
+            </Link>
 
-            <a href='/history' className='bottom-nav-link'>
+            <Link to={'/liked-videos'} className='bottom-nav-link'>
             <i className='material-icons'>favorite</i>
-            </a>
+            </Link>
 
-            <a href='/history' className='bottom-nav-link'>
+            <Link to={'/watch-later'} className='bottom-nav-link'>
             <i className='material-icons'>watch_later</i>
-            </a>
+            </Link>
 
-            <a href='/history' className='bottom-nav-link'>
+            <Link to={'/watch'} className='bottom-nav-link'>
             <i className='material-icons'>playlist_play</i>
-            </a>
+            </Link>
             
         </div>
      
